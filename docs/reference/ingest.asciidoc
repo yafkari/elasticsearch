@@ -4,7 +4,7 @@
 [partintro]
 --
 Use an ingest node to pre-process documents before the actual document indexing happens.
-The ingest node intercepts bulk and index requests, it applies transformations, and it then
+The ingest node intercepts bulk and index requests, it applies transformations, and then it 
 passes the documents back to the index or bulk APIs.
 
 All nodes enable ingest by default, so any node can handle ingest tasks. To
